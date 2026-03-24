@@ -1,13 +1,3 @@
-// ============================================================
-// CMP1002 - Lab: Encapsulation and Invariants
-// Student Version - MainProgram.cpp
-// ============================================================
-// Instructions:
-//   Complete all TODO sections below.
-//   Do NOT modify function signatures or class interfaces.
-//   All logic must remain in this single file.
-// ============================================================
-
 #include <iostream>
 #include <string>
 #include <stdexcept>
@@ -61,6 +51,7 @@ public:
             throw invalid_argument ("Temperature cannot be below absolute zero (-273.15)");
       
         }
+        celsius_ = celsius;
     }
 };
 
